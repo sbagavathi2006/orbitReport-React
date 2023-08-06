@@ -16,7 +16,7 @@ function App() {
     setSat(displaySats);
  };
   return (
-    <div>
+    <>
       <Banner />
       <Buttons
         filterByType={filterByType}
@@ -24,7 +24,7 @@ function App() {
         displaySats={displaySats}
         />
       <Table sat={sat} />    
-    </div>
+    </>
   );
 }
 
